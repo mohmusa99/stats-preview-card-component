@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Fontawesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="card text-center text-light" style="width: 375px">
+        <div class="banner-image">
+          <span class="overlay"></span>
+
+          <picture>
+            <source class="desktop_img" srcset="/assets/images/image-header-desktop.jpg" media="(min-width: 600px)">
+            <img class="" src="/assets/images/image-header-mobile.jpg" alt="">
+          </picture>
+
+
+          
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3 class="card-text_header">
+              Get <span class="color-purple">insights</span> that help your
+              business grow.
+            </h3>
+            <p class="card-text_paragragh">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+            <div class="stat_container">
+
+              <div class="stat_box d-flex flex-column">
+                <span class="stat_heading">10k+</span>
+                <span class="stat">COMPANIES</span>
+              </div>
+  
+              <div class="stat_box d-flex flex-column">
+                <span class="stat_heading">314</span>
+                <span class="stat">TEMPLATES</span>
+              </div>
+  
+              <div class="stat_box d-flex flex-column">
+                <span class="stat_heading">12M+</span>
+                <span class="stat">QUERIES</span>
+              </div>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
